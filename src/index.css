@@ -3,15 +3,17 @@
 }
 
 body {
-  background-color: #E5E7EB;
-  padding: 2rem 5rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem 0rem 0rem 0rem;
   overflow: scroll;
+  margin: 0;
 }
 
 .title {
   font-family: "Permanent Marker", cursive;
   text-align: center;
   letter-spacing: 0.1rem;
+  font-size: 2.3rem;
 }
 
 .title-anchor {
@@ -25,14 +27,15 @@ nav {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 3rem;
-  background-color: white;
+  background: linear-gradient(135deg, #a27dc4, #6b4e92);
   padding: 1rem 2rem;
   border-radius: 0.5rem;
+  margin: 2rem 5rem;
 }
 
 nav > a {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 0.3rem 1rem;
   border-radius: 0.2rem;
   letter-spacing: 0.05rem;
@@ -44,18 +47,16 @@ nav > a {
 }
 
 footer {
-  background-color: white;
-  color: black;
+  background: linear-gradient(135deg, #a27dc4, #6b4e92);
+  color: white;
   padding: 0.3rem;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
   font-family: "Permanent Marker", sans-serif;
   letter-spacing: 0.1rem;
   z-index: 999;
 }
+
 
 .example-title, .prop-options-title {
   font-family: "Permanent Marker", cursive;
@@ -602,5 +603,9 @@ footer {
   .review-with-avatar {
     font-size: 1rem;
     padding-right: 2rem;
+  }
+
+  nav {
+    margin: 2rem 1rem;
   }
 }

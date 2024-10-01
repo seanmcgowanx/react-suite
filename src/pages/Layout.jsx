@@ -8,15 +8,13 @@ export default function Layout() {
     return (
         <>
             <Link className="title-anchor" to="/">
-                <h1 className='title'>React Component Library</h1>
+                <h1 className='title'>React Suite</h1>
             </Link>
             <nav>
                 <NavLink to="/badges" className={activeStyle}>Badges</NavLink>
                 <NavLink to="/banners" className={activeStyle}>Banners</NavLink>
                 <NavLink to="/cards" className={activeStyle}>Cards</NavLink>
                 <NavLink to="/testimonials" className={activeStyle}>Testimonials</NavLink>
-                <NavLink to="/tooltips" className={activeStyle}>Tooltips</NavLink>
-                <NavLink to="/popups" className={activeStyle}>Popups</NavLink>
             </nav>
             <Outlet />
             <footer>

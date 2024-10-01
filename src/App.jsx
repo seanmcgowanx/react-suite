@@ -6,8 +6,6 @@ import Badges from '/src/pages/Badges'
 import Banners from '/src/pages/Banners'
 import Cards from '/src/pages/Cards'
 import Testimonials from '/src/pages/Testimonials'
-import Popups from '/src/pages/Popups'
-import Tooltips from '/src/pages/Tooltips'
 
 
 
@@ -22,8 +20,6 @@ export default function App() {
           <Route path="banners" element={<Banners />} />
           <Route path="cards" element={<Cards />} />
           <Route path="testimonials" element={<Testimonials />} />
-          <Route path="popups" element={<Popups />} />
-          <Route path="tooltips" element={<Tooltips />} />
         </Route>
       </Routes>
     </BrowserRouter>
