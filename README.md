@@ -15,19 +15,19 @@
 
 You can install React Suite using npm or Yarn:
 
-\`\`\`bash
+```bash
 # npm
 npm install react-suite
 
 # Yarn
 yarn add react-suite
-\`\`\`
+```
 
 ## Usage
 
 Here's an example of how to import and use a React Suite component in your app:
 
-\`\`\`jsx
+```jsx
 import { Banner } from 'react-suite';
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
 }
 
 export default App;
-\`\`\`
+```
 
 ### Available Components
 
@@ -56,31 +56,31 @@ export default App;
 
 To run the project locally, clone the repository and install dependencies:
 
-\`\`\`bash
+```bash
 git clone https://github.com/seanmcgowanx/react-suite.git
 cd react-suite
 npm install
-\`\`\`
+```
 
 Start the development server:
 
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 The project will be available at \`http://localhost:3000\`.
 
 ### Running Tests
 
-React Suite uses \`Jest\` for testing. To run tests, use the following command:
+React Suite uses `Jest` for testing. To run tests, use the following command:
 
-\`\`\`bash
+```bash
 npm test
-\`\`\`
+```
 
 ## Contributing
 
-Contributions are welcome! Please read the [contributing guidelines](#) (link to be added) before submitting a pull request.
+Contributions are welcome! 
 
 1. Fork the repository
 2. Create a new branch (\`git checkout -b feature/your-feature\`)
