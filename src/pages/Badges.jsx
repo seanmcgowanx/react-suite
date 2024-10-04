@@ -14,7 +14,7 @@ text: children
 
 export default function Badges() {
     return (
-        <>
+        <div class="section">
         <div className='prop-options'>
             <h2 className='prop-options-title'>Badge Prop Options</h2>
             <div className='prop-options-text'>
@@ -61,6 +61,6 @@ export default function Badges() {
                         <Badge color="purple" shape="pill">Custom Text</Badge>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

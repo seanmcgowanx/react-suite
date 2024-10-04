@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+.section {
+  min-height: 70vh;
+}
+
 .title {
   font-family: "Permanent Marker", cursive;
   text-align: center;
@@ -46,6 +50,14 @@ nav > a {
   color: white;
 }
 
+hr {
+  border: none;
+  height: 2px;
+  background-color: lightgray;
+  width: 80%; 
+  margin-bottom: 5rem;
+}
+
 footer {
   background: linear-gradient(135deg, #a27dc4, #6b4e92);
   color: white;
@@ -57,9 +69,28 @@ footer {
   z-index: 999;
 }
 
+.home-icon {
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.home-title, .home-section-title {
+  font-family: "Inter", sans-serif;
+}
+
+.home-title {
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-section-title {
+  margin: 0 12%;
+}
+
 
 .example-title, .prop-options-title {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Inter", sans-serif;
   opacity: 0.9;
   margin-top: 3rem;
   letter-spacing: 0.05rem;
@@ -103,6 +134,13 @@ footer {
   flex-wrap: wrap;
   gap: 2rem;
   margin: 2rem 12% 5rem 12%;
+}
+
+.cards-home {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 12%;
 }
 
 .card-flex {
